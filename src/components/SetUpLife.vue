@@ -1,4 +1,3 @@
-import { defineComponent } from 'vue';
 <template>
   <div></div>
 </template>
