@@ -4,7 +4,8 @@
   <!-- <set-up-life></set-up-life> -->
   <!-- <SetUpParent></SetUpParent> -->
   <!-- <ref></ref> -->
-  <reactive></reactive>
+  <!-- <reactive></reactive> -->
+  <computed></computed>
 </template>
 
 <script lang="ts">
@@ -15,6 +16,7 @@ import Ref from './components/Ref.vue'
 import SetUp from './components/SetUp.vue'
 import SetUpLife from './components/SetUpLife.vue'
 import SetUpParent from './components/SetUpParent.vue'
+import Computed from './components/Computed.vue'
 
 export default defineComponent({
   name: 'App',
@@ -24,7 +26,8 @@ export default defineComponent({
     SetUpLife,
     SetUpParent,
     Ref,
-    Reactive
+    Reactive,
+    Computed
 }
 })
 </script>
