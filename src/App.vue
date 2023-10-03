@@ -3,12 +3,14 @@
   <!-- <set-up></set-up> -->
   <!-- <set-up-life></set-up-life> -->
   <!-- <SetUpParent></SetUpParent> -->
-  <ref></ref>
+  <!-- <ref></ref> -->
+  <reactive></reactive>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
+import Reactive from './components/Reactive.vue'
 import Ref from './components/Ref.vue'
 import SetUp from './components/SetUp.vue'
 import SetUpLife from './components/SetUpLife.vue'
@@ -21,7 +23,8 @@ export default defineComponent({
     SetUp,
     SetUpLife,
     SetUpParent,
-    Ref
+    Ref,
+    Reactive
 }
 })
 </script>
