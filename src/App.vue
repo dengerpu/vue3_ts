@@ -5,7 +5,8 @@
   <!-- <SetUpParent></SetUpParent> -->
   <!-- <ref></ref> -->
   <!-- <reactive></reactive> -->
-  <computed></computed>
+  <!-- <computed></computed> -->
+  <hook-demo></hook-demo>
 </template>
 
 <script lang="ts">
@@ -17,6 +18,7 @@ import SetUp from './components/SetUp.vue'
 import SetUpLife from './components/SetUpLife.vue'
 import SetUpParent from './components/SetUpParent.vue'
 import Computed from './components/Computed.vue'
+import HookDemo from './components/HookDemo.vue'
 
 export default defineComponent({
   name: 'App',
@@ -27,7 +29,8 @@ export default defineComponent({
     SetUpParent,
     Ref,
     Reactive,
-    Computed
+    Computed,
+    HookDemo
 }
 })
 </script>
