@@ -1,16 +1,13 @@
+import { defineComponent } from 'vue';
 <template>
-  <div>
-    hello world
-  </div>
+  <div></div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
-
 export default defineComponent({
-  name: 'HelloWorld'
+  setup () {
+    console.log('setup,执行了')
+  }
 })
 </script>
-
-<style lang="scss" scoped>
-</style>
