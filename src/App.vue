@@ -1,18 +1,21 @@
 <template>
   <!-- <HelloWorld/> -->
-  <set-up></set-up>
+  <!-- <set-up></set-up> -->
+  <set-up-life></set-up-life>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
 import SetUp from './components/SetUp.vue'
+import SetUpLife from './components/SetUpLife.vue'
 
 export default defineComponent({
   name: 'App',
   components: {
     HelloWorld,
-    SetUp
+    SetUp,
+    SetUpLife
   }
 })
 </script>
