@@ -6,7 +6,8 @@
   <!-- <ref></ref> -->
   <!-- <reactive></reactive> -->
   <!-- <computed></computed> -->
-  <hook-demo></hook-demo>
+  <!-- <hook-demo></hook-demo> -->
+  <hook-demo2></hook-demo2>
 </template>
 
 <script lang="ts">
@@ -19,6 +20,7 @@ import SetUpLife from './components/SetUpLife.vue'
 import SetUpParent from './components/SetUpParent.vue'
 import Computed from './components/Computed.vue'
 import HookDemo from './components/HookDemo.vue'
+import HookDemo2 from './components/HookDemo2.vue'
 
 export default defineComponent({
   name: 'App',
@@ -30,7 +32,8 @@ export default defineComponent({
     Ref,
     Reactive,
     Computed,
-    HookDemo
+    HookDemo,
+    HookDemo2
 }
 })
 </script>
