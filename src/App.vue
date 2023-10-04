@@ -9,7 +9,8 @@
   <!-- <hook-demo></hook-demo> -->
   <!-- <hook-demo2></hook-demo2> -->
   <!-- <to-ref></to-ref> -->
-  <ref-demo></ref-demo>
+  <!-- <ref-demo></ref-demo> -->
+  <to-ref-parent></to-ref-parent>
 </template>
 
 <script lang="ts">
@@ -25,6 +26,7 @@ import HookDemo from './components/HookDemo.vue'
 import HookDemo2 from './components/HookDemo2.vue'
 import ToRef from './components/toRef.vue'
 import RefDemo from './components/RefDemo.vue'
+import ToRefParent from './components/toRefParent.vue'
 
 export default defineComponent({
   name: 'App',
@@ -39,7 +41,8 @@ export default defineComponent({
     HookDemo,
     HookDemo2,
     ToRef,
-    RefDemo
+    RefDemo,
+    ToRefParent
 }
 })
 </script>
