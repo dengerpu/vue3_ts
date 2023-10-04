@@ -11,7 +11,8 @@
   <!-- <to-ref></to-ref> -->
   <!-- <ref-demo></ref-demo> -->
   <!-- <to-ref-parent></to-ref-parent> -->
-  <custom-ref></custom-ref>
+  <!-- <custom-ref></custom-ref> -->
+  <teleport-demo></teleport-demo>
 </template>
 
 <script lang="ts">
@@ -29,6 +30,7 @@ import ToRef from './components/toRef.vue'
 import RefDemo from './components/RefDemo.vue'
 import ToRefParent from './components/toRefParent.vue'
 import CustomRef from './components/CustomRef.vue'
+import TeleportDemo from './components/TeleportDemo.vue'
 
 export default defineComponent({
   name: 'App',
@@ -45,7 +47,8 @@ export default defineComponent({
     ToRef,
     RefDemo,
     ToRefParent,
-    CustomRef
+    CustomRef,
+    TeleportDemo
 }
 })
 </script>
