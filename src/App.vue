@@ -8,7 +8,8 @@
   <!-- <computed></computed> -->
   <!-- <hook-demo></hook-demo> -->
   <!-- <hook-demo2></hook-demo2> -->
-  <to-ref></to-ref>
+  <!-- <to-ref></to-ref> -->
+  <ref-demo></ref-demo>
 </template>
 
 <script lang="ts">
@@ -23,6 +24,7 @@ import Computed from './components/Computed.vue'
 import HookDemo from './components/HookDemo.vue'
 import HookDemo2 from './components/HookDemo2.vue'
 import ToRef from './components/toRef.vue'
+import RefDemo from './components/RefDemo.vue'
 
 export default defineComponent({
   name: 'App',
@@ -36,7 +38,8 @@ export default defineComponent({
     Computed,
     HookDemo,
     HookDemo2,
-    ToRef
+    ToRef,
+    RefDemo
 }
 })
 </script>
