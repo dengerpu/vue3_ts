@@ -13,7 +13,10 @@
   <!-- <to-ref-parent></to-ref-parent> -->
   <!-- <custom-ref></custom-ref> -->
   <!-- <teleport-demo></teleport-demo> -->
-  <suspense-demo></suspense-demo>
+  <!-- <suspense-demo></suspense-demo> -->
+  <!-- <rate-demo :value="1"></rate-demo> -->
+  <!-- <transation-demo></transation-demo> -->
+  <animate-demo></animate-demo>
 </template>
 
 <script lang="ts">
@@ -33,6 +36,9 @@ import ToRefParent from './components/toRefParent.vue'
 import CustomRef from './components/CustomRef.vue'
 import TeleportDemo from './components/TeleportDemo.vue'
 import SuspenseDemo from './components/SuspenseDemo.vue'
+import RateDemo from './components/RateDemo.vue'
+import TransationDemo from './components/TransationDemo.vue'
+import AnimateDemo from './components/AnimateDemo.vue'
 
 export default defineComponent({
   name: 'App',
@@ -51,7 +57,10 @@ export default defineComponent({
     ToRefParent,
     CustomRef,
     TeleportDemo,
-    SuspenseDemo
+    SuspenseDemo,
+    RateDemo,
+    TransationDemo,
+    AnimateDemo
 }
 })
 </script>
