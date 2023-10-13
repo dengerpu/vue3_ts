@@ -16,7 +16,10 @@
   <!-- <suspense-demo></suspense-demo> -->
   <!-- <rate-demo :value="1"></rate-demo> -->
   <!-- <transation-demo></transation-demo> -->
-  <animate-demo></animate-demo>
+  <!-- <animate-demo></animate-demo> -->
+  <my-vuex-demo></my-vuex-demo>
+  <hr>
+  <my-vuex-demo-2></my-vuex-demo-2>
 </template>
 
 <script lang="ts">
@@ -39,6 +42,8 @@ import SuspenseDemo from './components/SuspenseDemo.vue'
 import RateDemo from './components/RateDemo.vue'
 import TransationDemo from './components/TransationDemo.vue'
 import AnimateDemo from './components/AnimateDemo.vue'
+import MyVuexDemo from './components/MyVuexDemo.vue'
+import MyVuexDemo2 from './components/MyVuexDemo2.vue'
 
 export default defineComponent({
   name: 'App',
@@ -60,7 +65,9 @@ export default defineComponent({
     SuspenseDemo,
     RateDemo,
     TransationDemo,
-    AnimateDemo
+    AnimateDemo,
+    MyVuexDemo,
+    MyVuexDemo2
 }
 })
 </script>
