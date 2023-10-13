@@ -17,9 +17,15 @@
   <!-- <rate-demo :value="1"></rate-demo> -->
   <!-- <transation-demo></transation-demo> -->
   <!-- <animate-demo></animate-demo> -->
-  <my-vuex-demo></my-vuex-demo>
+  <!-- <my-vuex-demo></my-vuex-demo>
   <hr>
-  <my-vuex-demo-2></my-vuex-demo-2>
+  <my-vuex-demo-2></my-vuex-demo-2> -->
+  <div>
+    <router-link to="/home">首页</router-link>
+    <router-link to="/about">关于</router-link>
+  </div>
+  <hr>
+  <router-view></router-view>
 </template>
 
 <script lang="ts">
