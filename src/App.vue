@@ -74,7 +74,12 @@ export default defineComponent({
     AnimateDemo,
     MyVuexDemo,
     MyVuexDemo2
-}
+  },
+  created () {
+    debugger
+    console.log('111')
+    console.log('2222')
+  }
 })
 </script>
 
