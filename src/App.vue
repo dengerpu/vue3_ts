@@ -76,7 +76,7 @@ export default defineComponent({
     MyVuexDemo2
   },
   created () {
-    debugger
+    // debugger
     console.log('111')
     console.log('2222')
   }
