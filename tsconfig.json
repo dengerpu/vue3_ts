@@ -33,7 +33,7 @@
     "src/**/*.vue",
     "tests/**/*.ts",
     "tests/**/*.tsx"
-, "src/store/index.js", "src/store/myVuex.js"  ],
+, "src/store/index.js", "src/store/myVuex.js", "src/store/count.js"  ],
   "exclude": [
     "node_modules"
   ]

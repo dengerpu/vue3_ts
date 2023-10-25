@@ -24,12 +24,12 @@
     <router-link to="/home">首页</router-link>
     <router-link to="/about">关于</router-link>
   </div>
-  <hr>
+  <hr />
   <router-view></router-view>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue'
+<script>
+import { defineComponent, ref } from 'vue'
 import HelloWorld from './components/HelloWorld.vue'
 import Reactive from './components/Reactive.vue'
 import Ref from './components/Ref.vue'
@@ -75,6 +75,14 @@ export default defineComponent({
     MyVuexDemo,
     MyVuexDemo2
   },
+  setup () {
+    function fib (n) {
+      if (n <= 1) return 1
+      return fib(n - 1) + fib(n - 2)
+    }
+    const count = ref(fib(38))
+    console.log('count', count.value)
+  },
   created () {
     // debugger
     console.log('111')
@@ -83,13 +91,4 @@ export default defineComponent({
 })
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style></style>
