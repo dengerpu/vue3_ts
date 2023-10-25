@@ -5,11 +5,14 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "ssr": "nodemon ./server/index.js"
   },
   "dependencies": {
+    "@vue/server-renderer": "^3.3.7",
     "axios": "^1.5.1",
     "core-js": "^3.8.3",
+    "express": "^4.18.2",
     "pinia": "^2.0.0-rc.10",
     "vue": "^3.2.13"
   },
